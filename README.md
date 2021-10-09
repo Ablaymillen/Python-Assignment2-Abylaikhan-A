@@ -6,12 +6,12 @@
 To be able to use the programm you should install ```requests_html``` library
 
 ## Usage 
-Create coin object in order to get all neccessary  information of specific cryptocurrency
-coin = Coin(<name of a coin>)
-Getting recent crypto news on particular coin
-coin.get_news()
-Getting information of the coin
-coin.get_info()
+1. Create coin object in order to get all neccessary  information of specific cryptocurrency
+```coin = Coin(<name of a coin>)```
+1. Getting recent crypto news on particular coin
+```coin.get_news()```
+1. Getting information of the coin
+```coin.get_info()```
 
 ## Usage Examples 
 * creating coin object (bitcoin) ```btc = Coin('bitcoin')```
