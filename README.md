@@ -13,7 +13,7 @@ coin.get_news()
 Getting information of the coin
 coin.get_info()
 
-##Usage Examples 
+## Usage Examples 
 * creating coin object (bitcoin) ```btc = Coin('bitcoin')```
 * getting crypto news on particular coin (bitcoin) ```btc.get_news()```
 * getting information on the same coin (bitcoin) ```btc.get_info()```
