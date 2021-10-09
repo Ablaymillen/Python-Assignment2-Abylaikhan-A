@@ -1,2 +1,2 @@
-###### pip install requests_html
-###### pip install sys
+pip install requests_html
+pip install sys
