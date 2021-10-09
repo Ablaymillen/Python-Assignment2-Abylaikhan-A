@@ -3,14 +3,14 @@
 ## Title: Providing lates information and news of specific crypto currency using requests (Dynamic scrapping)
 
 ## Installation
-To be able to use the programm you should install ```requests_html``` library
+To be able to use the programm you should install ```requests_html``` and ```sys``` libraries
 
 ## Usage 
 1. Create coin object in order to get all neccessary  information of specific cryptocurrency
 ```coin = Coin(<name of a coin>)```
 1. Getting recent crypto news on particular coin
 ```coin.get_news()```
-1. Getting information of the coin
+1. Getting short information relatied to the coin
 ```coin.get_info()```
 
 ## Usage Examples 
